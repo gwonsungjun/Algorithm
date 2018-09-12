@@ -10,6 +10,8 @@ import java.util.stream.IntStream;
 
 public class PermCheck {
 
+    //XOR???
+
     public static int solution(int[] A) {
         int max = IntStream.of(A).max().orElse(0);
         int length = (int)Arrays.stream(A).distinct().count();
