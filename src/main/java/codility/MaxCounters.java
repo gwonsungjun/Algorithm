@@ -6,6 +6,7 @@ public class MaxCounters {
 
     public static int[] solution(int N, int[] A) {
 
+
         int length = A.length;
         int[] counters = new int[N];
         int max = 0;
@@ -29,6 +30,10 @@ public class MaxCounters {
         int[] result = solution(N, A);
 
         Arrays.stream(result).forEach(System.out::print);
+
+
+        System.out.println(args);
+        System.out.println(args);
     }
 }
 
@@ -63,3 +68,4 @@ public static int getMaxVal(int[] counter) {
         }
         return max;
 */
+
