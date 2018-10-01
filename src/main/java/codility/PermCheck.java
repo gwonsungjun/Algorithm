@@ -13,6 +13,7 @@ public class PermCheck {
     //XOR???
 
     public static int solution(int[] A) {
+
         int max = IntStream.of(A).max().orElse(0);
         int length = (int)Arrays.stream(A).distinct().count();
 
@@ -21,12 +22,11 @@ public class PermCheck {
         }else{
             return 0;
         }
-
     }
 
     public static void main(String[] args) {
-        int[] A = {4, 1, 3, 2};
-        //int[] A = {1, 1};
+       // int[] A = {4, 1, 3, 2};
+        int[] A = {1, 1};
         //int[] A = {4, 1, 3};
         //int[] A = {1};
         //int[] A = {1, 4, 1};

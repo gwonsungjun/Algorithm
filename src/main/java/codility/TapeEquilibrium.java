@@ -4,7 +4,7 @@ public class TapeEquilibrium {
 
     public static int solution(int A[]) {
 
-        int N = A.length;
+      int N = A.length;
 
         int sumTotal = 0;
         int sumLeft = 0;
@@ -58,3 +58,6 @@ public class TapeEquilibrium {
         }
         return result;
     }*/
+
+
+
